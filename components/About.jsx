@@ -148,8 +148,8 @@ const About = () => {
           {/* tabs */}
           <div className='flex-1'>
             <Tabs defaultValue='personal'>
-              <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
-                <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>
+              <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none '>
+                <TabsTrigger className='w-[162px] xl:w-auto ' value='personal'>
                   Personal Info
                 </TabsTrigger>
                 <TabsTrigger
@@ -163,7 +163,7 @@ const About = () => {
                 </TabsTrigger>
               </TabsList>
               {/* tabs content */}
-              <div className='text-lg mt-12 xl:mt-8'>
+              <div className='text-lg mt-12 xl:mt-8 '>
                 {/* personal */}
                 <TabsContent value='personal'>
                   <div className='text-center xl:text-left'>
